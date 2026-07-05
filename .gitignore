@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+
+# --- Composer dependencies (regenerated via `composer install`) ---
+/vendor/
+composer.lock
+
+# --- PHPUnit runtime artifacts ---
+/.phpunit.cache/
+/.phpunit.result.cache
+/build/
+/coverage/
+
+# --- Logs ---
+*.log
+error_log
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Local config overrides ---
+config.local.php
+db_config.local.php
